@@ -326,5 +326,5 @@ async def on_message(message):
 			await ch.send(f'{message.author.name} successfully enabled something in {message.channel.mention} by running `{message.content}`')
 		elif message.content.startswith('pls disable'):
 			await ch.send(f'{message.author.name} successfully disabled something in {message.channel.mention} by running `{message.content}`')
-tdu.run('ODA3NDg4Nzc1NjYzMTI0NDgw.YB4uhg.ZRdXCTg6Z2woQVEtvSVD2gzd99I')
+tdu.run('TOKEN')
 
